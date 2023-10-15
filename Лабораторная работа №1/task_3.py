@@ -16,7 +16,7 @@ list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "�
 
 # TODO Разделите участников на две команды
 count_of_list_payers = len(list_players)
-half_count_of_list_payers = int(count_of_list_payers / 2)
+half_count_of_list_payers = count_of_list_payers // 2
 
 team_players_first  = list_players[:half_count_of_list_payers]
 team_players_second = list_players[half_count_of_list_payers:]
